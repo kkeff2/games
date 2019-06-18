@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import {GameDecider} from "./GameDecider";
+import {NumbersGame} from "./NumbersGame";
 
-function App() {
+const App = () => {
+  const [game, setGame] = useState(null);
+  const getContentElement = () => {
+    if (!game){
+      return  <GameDecider test="HEJ" onGameClick={setGame}/>;
+    }
+    return game === 'numbers' ? <NumbersGame onGameClick={setGame}/> : <div>LETTERS WIP</div>;
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header" onClick={() => setGame(null)}>WELCOME</div>
+      <div className="App-content">
+        {getContentElement()}
+      </div>
     </div>
   );
 }
