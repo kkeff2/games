@@ -1,0 +1,34 @@
+.NumbersGame {
+  width: 75%;
+  background: white;
+  overflow: hidden;
+  display: flex;
+  max-width: 30rem;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.NumbersGame-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.NumbersGame-big-number-select {
+  display: flex;
+  justify-content: space-around;
+}
+
+.NumbersGame-game-numbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.NumbersGame-game-number-box {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./app.css";
-import { GameDecider } from "./components/gameDecider";
-import { NumbersGame } from "./components/numbersGame";
+import { GameDecider } from "./gameDecider";
+import { NumbersGame } from "./numbersGame";
 
 export const App = () => {
   const [game, setGame] = useState<string | null>(null);
@@ -19,8 +19,4 @@ export const App = () => {
       <div className="App-content">{getContentElement()}</div>
     </div>
   );
-};
-
-export const Bajs = () => {
-  return <div></div>;
 };
