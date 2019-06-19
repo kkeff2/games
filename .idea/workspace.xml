@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="770f1db3-1cc7-4c62-8655-299f2362912d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/numbersGame/highNumberSelector.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/numbersGame/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/numbersGame/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/numbersGame.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/numbersGame/highNumberSelector.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/numbersGame.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app.tsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,6 +18,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/app.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/numbersGame/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -42,6 +54,18 @@
               <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/NumbersGame.css" />
         <option value="$PROJECT_DIR$/src/NumbersGame.js" />
         <option value="$PROJECT_DIR$/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/GameDecider.tsx" />
         <option value="$PROJECT_DIR$/src/NumbersGame.tsx" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
@@ -96,13 +119,14 @@
         <option value="$PROJECT_DIR$/src/components/numbersGame.tsx" />
         <option value="$PROJECT_DIR$/src/components/numbersGame/highNumberSelector.ts" />
         <option value="$PROJECT_DIR$/src/app.tsx" />
-        <option value="$PROJECT_DIR$/src/components/app.tsx" />
         <option value="$PROJECT_DIR$/src/components/numbersGame/highNumberSelector.css" />
         <option value="$PROJECT_DIR$/src/components/numbersGame/highNumberSelector.tsx" />
         <option value="$PROJECT_DIR$/src/constants.ts" />
         <option value="$PROJECT_DIR$/src/core.ts" />
         <option value="$PROJECT_DIR$/src/components/numbersGame/index.tsx" />
         <option value="$PROJECT_DIR$/src/components/numbersGame/index.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/app.tsx" />
       </list>
     </option>
   </component>
@@ -234,12 +258,12 @@
       <workItem from="1560887187879" duration="5085000" />
       <workItem from="1560969376228" duration="3202000" />
       <workItem from="1560972870045" duration="1526000" />
-      <workItem from="1560974453891" duration="5403000" />
+      <workItem from="1560974453891" duration="5787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15216000" />
+    <option name="totallyTimeSpent" value="15600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -294,13 +318,6 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -345,16 +362,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
-    <entry file="file://$PROJECT_DIR$/src/index.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/gameDecider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -363,16 +370,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/numbersGame/index.css.css" />
-    <entry file="file://$PROJECT_DIR$/src/components/app.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -435,6 +432,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/app.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
