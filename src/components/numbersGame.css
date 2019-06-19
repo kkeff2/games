@@ -1,16 +1,18 @@
-.NumbersGame-container {
-  border-radius: 0.5rem;
+.NumbersGame {
+  width: 75%;
   background: white;
   overflow: hidden;
   display: flex;
   max-width: 30rem;
 }
 
-.GameDecider-game {
+.NumbersGame-header {
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 50%;
-  padding: 3rem;
   text-align: center;
+}
+
+.NumbersGame-big-number-select {
+  display: flex;
+  justify-content: space-around;
 }
