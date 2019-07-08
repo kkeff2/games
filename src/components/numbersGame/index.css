@@ -12,11 +12,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
-}
-
-.NumbersGame-big-number-select {
-  display: flex;
-  justify-content: space-around;
+  margin-bottom: 1rem;
 }
 
 .NumbersGame-game-numbers {

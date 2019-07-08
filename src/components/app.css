@@ -4,6 +4,7 @@
 }
 
 .App-header {
+  background: cornsilk;
   width: 100%;
   border-bottom: 1px solid black;
   height: 2rem;
@@ -14,4 +15,10 @@
   display: flex;
   justify-content: center;
   margin: .75rem;
+}
+
+.Link-no-style {
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
 }

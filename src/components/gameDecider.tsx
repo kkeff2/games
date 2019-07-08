@@ -1,27 +1,24 @@
 import React from "react";
 import "./gameDecider.css";
+import { Link } from "react-router-dom";
 
-interface Props {
-  onGameClick: (game: string) => void;
-}
-
-export const GameDecider = ({ onGameClick }: Props) => {
+export const GameDecider = () => {
   return (
     <div className="GameDecider-container">
-      <div
-        className="GameDecider-game"
-        onClick={() => onGameClick("numbers")}
+      <Link
+        to={"/numbers"}
+        className={"Link-no-style GameDecider-game"}
         style={{ background: "red" }}
       >
         Numbers
-      </div>
-      <div
-        className="GameDecider-game"
-        onClick={() => onGameClick("letters")}
+      </Link>
+      <Link
+        to={"/letters"}
+        className="Link-no-style GameDecider-game"
         style={{ background: "blue" }}
       >
         Letters (WIP)
-      </div>
+      </Link>
     </div>
   );
 };

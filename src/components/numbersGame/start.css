@@ -1,0 +1,13 @@
+.Start-game-numbers {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Start-game-number-box {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+}

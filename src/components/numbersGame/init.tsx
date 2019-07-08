@@ -1,20 +1,23 @@
 import React from "react";
-import "./highNumberSelector.css";
+import "./init.css";
+import { GameState } from "./index";
 
 interface HighNumberOption {
   label: string;
   value: number;
 }
 
-export interface HighNumberSelectorProps {
+interface InitProps {
   highNumberSelected: number;
   onHighNumberSelected: (value: number) => void;
+  setGameState: (gameState: GameState) => void;
 }
 
-export const HighNumberSelector = ({
+export const Init = ({
+  setGameState,
   highNumberSelected,
   onHighNumberSelected
-}: HighNumberSelectorProps) => {
+}: InitProps) => {
   const highNumbersOptions: HighNumberOption[] = [
     { label: "1", value: 1 },
     { label: "2", value: 2 },
@@ -34,5 +37,12 @@ export const HighNumberSelector = ({
       );
     }
   );
-  return <div className="HighNumberSelector">{highNumbersOptionsElement}</div>;
+  return (
+    <>
+      <div className="Init-high-number-selector">
+        {highNumbersOptionsElement}
+      </div>
+      <button onClick={() => setGameState("start")}>Starta</button>
+    </>
+  );
 };
